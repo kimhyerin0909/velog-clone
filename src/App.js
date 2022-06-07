@@ -1,9 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import NewPost from './components/NewPost';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="newpost" element={<NewPost />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
