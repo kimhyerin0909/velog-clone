@@ -16,6 +16,7 @@ import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
 import 'tui-color-picker/dist/tui-color-picker.css';
 import '@toast-ui/editor-plugin-color-syntax/dist/toastui-editor-plugin-color-syntax.css';
 import colorSyntax from '@toast-ui/editor-plugin-color-syntax';
+import { NULL } from 'sass';
 
 function NewPost(props) {
   const editorRef = React.createRef();
@@ -31,11 +32,17 @@ function NewPost(props) {
               className='postTitle'
               placeholder="제목을 입력하세요"
           ></textarea>
+          <textarea
+              type="title"
+              className='tag'
+              placeholder="태그를 입력하세요"
+          ></textarea>
           <Editor
+              placeholder='sodyd'
               previewStyle="vertical"
               height="79vh"
               initialEditType="markdown"
-              initialValue="마크다운으로 내용을 입력하세요."
+              initialValue = ""
               ref={editorRef}
               plugins={[colorSyntax, [codeSyntaxHighlight, { highlighter: Prism }]]}
               onChange={onChangeEditorTextHandler}
