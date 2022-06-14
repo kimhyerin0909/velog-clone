@@ -5,4 +5,43 @@
   background-color: white;
 }
 
+.newPost {
+  padding: 1.8% 2.8%;
+}
+.newPost .postTitle {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 2.75rem;
+  font-weight: bolder;
+  resize: both;
+  outline: none;
+  word-spacing: -18px;
+  background: transparent;
+  line-height: 1.5;
+}
+
+.newPost .tag {
+  width: 100%;
+  padding: 10px;
+  margin-top: -40px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.125rem;
+  resize: both;
+  outline: none;
+  word-spacing: -5px;
+  background: transparent;
+  line-height: 1.5;
+}
+
+.newPost .postTitle::placeholder {
+  color: #868E96;
+}
+
+.newPost .tag::placeholder {
+  color: #868E96;
+}
+
 /*# sourceMappingURL=style.css.map */
