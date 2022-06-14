@@ -21,27 +21,61 @@
   background: transparent;
   line-height: 1.5;
 }
-
-.newPost .tag {
-  width: 100%;
-  padding: 10px;
-  margin-top: -40px;
-  box-sizing: border-box;
-  border: none;
-  font-size: 1.125rem;
-  resize: both;
-  outline: none;
-  word-spacing: -5px;
-  background: transparent;
-  line-height: 1.5;
-}
-
 .newPost .postTitle::placeholder {
   color: #868E96;
 }
 
-.newPost .tag::placeholder {
-  color: #868E96;
+.header {
+  display: flex;
+  justify-content: center;
+  height: 68px;
+}
+.header .header-box {
+  align-items: center;
+  display: flex;
+  width: 90%;
+}
+.header .header-box img {
+  width: 42.5px;
+}
+.header .header-box button {
+  border: none;
+  background-color: white;
+}
+.header .header-box nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.header .header-box nav .header-item {
+  margin-left: 15px;
+}
+.header .header-box nav .new-post-btn {
+  transition: ease 0.2s;
+  font-weight: bold;
+  height: 34px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0 18px;
+  margin-right: 20px;
+}
+.header .header-box nav .new-post-btn:hover {
+  background-color: black;
+  color: white;
+}
+.header .header-box nav .img-radius {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header .header-box nav .img-radius img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header .header-box nav .dropdown > img {
+  width: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
