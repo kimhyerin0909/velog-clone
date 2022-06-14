@@ -4,3 +4,23 @@
         background-color: white;
     }
 }
+
+.newPost{
+    .postTitle{
+        width: 100%;
+        padding: 10px;
+		box-sizing: border-box;
+		border: none;
+		font-size: 2.75rem;
+        font-weight: bolder;
+		resize: both;
+        outline: none;
+        word-spacing: -18px;
+        background: transparent;
+        line-height: 1.5;
+        &::placeholder {
+            color: #868E96;
+        }
+    }
+    padding: 1.8% 2.8%;
+}
