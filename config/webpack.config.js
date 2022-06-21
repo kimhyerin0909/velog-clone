@@ -90,7 +90,7 @@ const hasJsxRuntime = (() => {
 module.exports = function (webpackEnv) {
   const isEnvDevelopment = webpackEnv === 'development';
   const isEnvProduction = webpackEnv === 'production';
-
+  
   // Variable used for enabling profiling in Production
   // passed into alias object. Uses a flag if passed into the build command
   const isEnvProductionProfile =
@@ -293,6 +293,9 @@ module.exports = function (webpackEnv) {
       ],
     },
     resolve: {
+      fallback: {
+        fs:false,
+      },
       // This allows you to set a fallback for where webpack should look for modules.
       // We placed these paths second because we want `node_modules` to "win"
       // if there are any conflicts. This matches Node resolution mechanism.
@@ -750,6 +753,6 @@ module.exports = function (webpackEnv) {
     ].filter(Boolean),
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter
-    performance: false,
+    performance: false
   };
 };
