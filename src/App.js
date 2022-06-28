@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import NewPost from './components/NewPost';
 import Home from './components/Home';
+import "./style.css";
 
 function App() {
   return (
