@@ -1,0 +1,46 @@
+[
+    {
+        "id":0,
+        "repImgSrc":"https://velog.velcdn.com/images/diogenes0803/post/24571c03-0be1-449b-91b1-de3122013463/image.jpg",
+        "title":"미국 개발자의 연봉을 알아보자",
+        "content":"억대연봉이 어쩌고 저쩌고 그래서 얼마나 버냐고 미국개발자의 연봉이 어마어마 하다는건 모두들 익히 들어서 알고있는 사실이다. 근데 많이 번다고만 하지 속시원하게 누구하나 정확히 얼마다 라고 말해주는 사람이 없다. 직급별 천차만별이고 사람따라 다르고 그래 그건 그렇다고 쳐도 그래서 평균적으로 기대할 수 있는 연봉이 얼마냐고? 지금부터 알아보도록 하자.",
+        "username":"diogenes0803",
+        "date":"2022년 6월 17일",
+        "tag":["개발자", "개발자연봉","미국","미국개발자","미국개발자 연봉", "연봉", "연봉체계"],
+        "heart":63,
+        "comment":["미국이야기가 많이 고픕니다!! 더주세요!!!!","ddddddd", "감사한 정보 너무 잘 읽었습니다!!"]
+    },
+    {
+        "id":1,
+        "repImgSrc":"https://velog.velcdn.com/images/yulim2/post/2562def1-20fb-4706-b2c8-92aa8a951946/image.jpg",
+        "title":"[Mac M1] Mac M1 Tensorflow 설치 by Anaconda",
+        "content":"Mac M1 Tensorflow 설치 by Anaconda 작성 이유 👐 conda를 몰랐을 때 base에 깔아버린 tensorflow가 실행되지도 않고 노트북에 충돌만 불러와서 초기화까지 했었던 나... conda 내에서 다른 라이브러리가 충돌이 되서 다시 설치를 해야하여 정확한 메뉴얼이 필요해 직접 작성한다!",
+        "username":"yulim2",
+        "date":"2022년 6월 8일",
+        "tag":["mac m1"],
+        "heart":423,
+        "comment":[]
+    },
+    {
+        "id":2,
+        "repImgSrc":"https://velog.velcdn.com/images/baekteun/post/a93f182d-88b4-4da4-80cb-20e8eea7ee04/image.png",
+        "title":"앱스토어 2위 앱이 되어버렸다.",
+        "content":" 평화로운 점심 직전 시간. 한 친구가 '야, 그 만들었다는 그 이름 뭐냐' 라는 말에 '그거 오늘 뭐임 오늘 뭐임' 이라 답을 했고, 얼마 안지나서",
+        "username":"yulim2",
+        "date":"2022년 6월 8일",
+        "tag":["2위", "Apple", "MacOS", "appStore","swift","라이프스타일","앱스토어"],
+        "heart":1,
+        "comment":[]
+    },
+    {
+        "id":3,
+        "repImgSrc":"https://velog.velcdn.com/images/backtony/post/4f487a51-9107-410b-b2c6-297a19870f65/image.PNG",
+        "title":"2022 상반기 백엔드 개발 취업 회고",
+        "content":" 2022 상반기에 지원하면서 느꼈던 것들을 정리하고, 신입으로 백엔드 개발 취업을 준비하시는 분들께 도움이 되길 바라며 글을 작성합니다. ✍️🙋‍♂️ 저는.. 저는 재수해서 입학한 첫 대학에서 전기공학과를 전공했고 군 복무를 하면서 자퇴를 결심했습니다.",
+        "username":"yulim2",
+        "date":"2022년 6월 19일",
+        "tag":["BE", "네이버웹툰", "백엔드","신입", "취업","회고"],
+        "heart":7,
+        "comment":["글 잘읽었습니다. 혹시 당근마켓 면접관련 내용도 알 수 있을까요??"]
+    }
+]
