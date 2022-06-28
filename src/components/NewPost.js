@@ -32,6 +32,7 @@ function NewPost(props) {
               className='postTitle'
               placeholder="제목을 입력하세요"
           ></textarea>
+          <div className='underBar'></div>
           <textarea
               type="title"
               className='tag'
