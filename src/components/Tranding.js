@@ -3,6 +3,7 @@ import post from '../data/posts.json';
 
 export default function Tranding() {
   const [postList, setPostList] = useState(<div></div>);
+
   useEffect(() => {
     setPostList(post.map((data, index) => {
       const list = <div className='list-item' key={index}>
@@ -11,7 +12,6 @@ export default function Tranding() {
           <div className='item-info'>
             <h4><b>{data.title}</b></h4>
             <p>{data.content.length > 100 ? data.content.substr(0, 100)+" ..." : data.content}</p>
-            
             <div className='sub-info'>
               <span>{data.date}</span>
               <span className='separator'>·</span>
