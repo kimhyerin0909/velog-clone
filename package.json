@@ -79,7 +79,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parser": "@babel/eslint-parser"
   },
   "browserslist": {
     "production": [
@@ -154,5 +155,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
