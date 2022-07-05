@@ -73,7 +73,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "build:sass": "sass --watch src/style.scss:src/style.css"
+    "build:sass": "sass --watch src/style.scss:src/style.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -158,6 +160,8 @@
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
-  }
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://kimhyerin0909.github.io/velog-clone/"
 }
