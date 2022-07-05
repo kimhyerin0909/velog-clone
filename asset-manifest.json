@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/velog-clone/static/css/main.d3c8cdba.css",
+    "main.js": "/velog-clone/static/js/main.9764bb29.js",
+    "static/js/787.b3e64bc2.chunk.js": "/velog-clone/static/js/787.b3e64bc2.chunk.js",
+    "static/media/index.cjs": "/velog-clone/static/media/index.1e3d64b0fcde879f0060.cjs",
+    "index.html": "/velog-clone/index.html",
+    "main.d3c8cdba.css.map": "/velog-clone/static/css/main.d3c8cdba.css.map",
+    "main.9764bb29.js.map": "/velog-clone/static/js/main.9764bb29.js.map",
+    "787.b3e64bc2.chunk.js.map": "/velog-clone/static/js/787.b3e64bc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3c8cdba.css",
+    "static/js/main.9764bb29.js"
+  ]
+}
